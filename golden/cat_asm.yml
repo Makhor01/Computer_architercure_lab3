@@ -1,0 +1,24 @@
+in_source: |-
+  section .data
+  
+  section .text
+  _start:
+  loop:
+    input 0
+    cmp '\n'
+    je exit
+    output 1
+    jmp loop
+  exit:
+    hlt
+
+in_stdin: |-
+  BEGGIN
+
+out_code: |-
+  0000000f0a0000150500000b0100000e0000000800000017
+out_data: |-
+
+out_stdout: |-
+
+out_log: |-

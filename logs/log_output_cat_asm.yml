@@ -1,0 +1,205 @@
+DEBUG   machine:simulation    INPUT 0
+TICK:   0 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 0 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  ['B', 'E', 'G', 'G', 'I', 'N', '\n']
+OUT_PORT:  []
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:   3 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 66 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  ['E', 'G', 'G', 'I', 'N', '\n']
+OUT_PORT:  []
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:   6 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 66 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['E', 'G', 'G', 'I', 'N', '\n']
+OUT_PORT:  []
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:   9 PC:   3 ADDR:   0 MEM_OUT: Out of range ACC: 66 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['E', 'G', 'G', 'I', 'N', '\n']
+OUT_PORT:  []
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JMP 0
+TICK:  12 PC:   4 ADDR:   0 MEM_OUT: Out of range ACC: 66 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['E', 'G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    INPUT 0
+TICK:  15 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 66 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['E', 'G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:  18 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 69 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:  21 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 69 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  24 PC:   3 ADDR:   0 MEM_OUT: Out of range ACC: 69 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JMP 0
+TICK:  27 PC:   4 ADDR:   0 MEM_OUT: Out of range ACC: 69 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    INPUT 0
+TICK:  30 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 69 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:  33 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:  36 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  39 PC:   3 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JMP 0
+TICK:  42 PC:   4 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    INPUT 0
+TICK:  45 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['G', 'I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:  48 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:  51 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  54 PC:   3 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JMP 0
+TICK:  57 PC:   4 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    INPUT 0
+TICK:  60 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 71 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['I', 'N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:  63 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 73 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:  66 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 73 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  69 PC:   3 ADDR:   0 MEM_OUT: Out of range ACC: 73 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JMP 0
+TICK:  72 PC:   4 ADDR:   0 MEM_OUT: Out of range ACC: 73 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    INPUT 0
+TICK:  75 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 73 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['N', '\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:  78 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 78 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:  81 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 78 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  84 PC:   3 ADDR:   0 MEM_OUT: Out of range ACC: 78 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JMP 0
+TICK:  87 PC:   4 ADDR:   0 MEM_OUT: Out of range ACC: 78 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I', 'N']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    INPUT 0
+TICK:  90 PC:   0 ADDR:   0 MEM_OUT: Out of range ACC: 78 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  ['\n']
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I', 'N']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    CMP 10
+TICK:  93 PC:   1 ADDR:   0 MEM_OUT: Out of range ACC: 10 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I', 'N']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    JE 5
+TICK:  96 PC:   2 ADDR:   0 MEM_OUT: Out of range ACC: 10 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I', 'N']
+DATA_MEM:  []
+---------------------------------------
+DEBUG   machine:simulation    HLT 
+TICK:  99 PC:   5 ADDR:   0 MEM_OUT: Out of range ACC: 10 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  ['B', 'E', 'G', 'G', 'I', 'N']
+DATA_MEM:  []
+---------------------------------------
+INFO    machine:simulation    output_buffer: 'BEGGIN'

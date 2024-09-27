@@ -1,0 +1,415 @@
+DEBUG   machine:simulation    LD 0
+TICK:   0 PC:   0 ADDR:   0 MEM_OUT: 13 ACC: 0 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  []
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    SETCNT 
+TICK:   4 PC:   1 ADDR:   0 MEM_OUT: 13 ACC: 13 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  []
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    LDA 4
+TICK:   7 PC:   2 ADDR:   0 MEM_OUT: 13 ACC: 13 BUFF: 0 DC: 13 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  []
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    SETADDR 
+TICK:  10 PC:   3 ADDR:   0 MEM_OUT: 13 ACC: 4 BUFF: 0 DC: 13 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  []
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK:  13 PC:   4 ADDR:   1 MEM_OUT: 72 ACC: 4 BUFF: 0 DC: 13 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  []
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  17 PC:   5 ADDR:   2 MEM_OUT: 101 ACC: 72 BUFF: 0 DC: 12 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  []
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK:  20 PC:   6 ADDR:   2 MEM_OUT: 101 ACC: 72 BUFF: 0 DC: 12 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  ['H']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK:  23 PC:   7 ADDR:   2 MEM_OUT: 101 ACC: 72 BUFF: 0 DC: 12 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK:  26 PC:   8 ADDR:   2 MEM_OUT: 101 ACC: 72 BUFF: 0 DC: 12 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK:  29 PC:   4 ADDR:   2 MEM_OUT: 101 ACC: 72 BUFF: 0 DC: 12 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  33 PC:   5 ADDR:   3 MEM_OUT: 108 ACC: 101 BUFF: 0 DC: 11 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK:  36 PC:   6 ADDR:   3 MEM_OUT: 108 ACC: 101 BUFF: 0 DC: 11 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK:  39 PC:   7 ADDR:   3 MEM_OUT: 108 ACC: 101 BUFF: 0 DC: 11 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK:  42 PC:   8 ADDR:   3 MEM_OUT: 108 ACC: 101 BUFF: 0 DC: 11 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK:  45 PC:   4 ADDR:   3 MEM_OUT: 108 ACC: 101 BUFF: 0 DC: 11 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  49 PC:   5 ADDR:   4 MEM_OUT: 108 ACC: 108 BUFF: 0 DC: 10 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK:  52 PC:   6 ADDR:   4 MEM_OUT: 108 ACC: 108 BUFF: 0 DC: 10 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK:  55 PC:   7 ADDR:   4 MEM_OUT: 108 ACC: 108 BUFF: 0 DC: 10 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK:  58 PC:   8 ADDR:   4 MEM_OUT: 108 ACC: 108 BUFF: 0 DC: 10 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK:  61 PC:   4 ADDR:   4 MEM_OUT: 108 ACC: 108 BUFF: 0 DC: 10 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  65 PC:   5 ADDR:   5 MEM_OUT: 111 ACC: 108 BUFF: 0 DC: 9 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK:  68 PC:   6 ADDR:   5 MEM_OUT: 111 ACC: 108 BUFF: 0 DC: 9 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK:  71 PC:   7 ADDR:   5 MEM_OUT: 111 ACC: 108 BUFF: 0 DC: 9 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK:  74 PC:   8 ADDR:   5 MEM_OUT: 111 ACC: 108 BUFF: 0 DC: 9 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK:  77 PC:   4 ADDR:   5 MEM_OUT: 111 ACC: 108 BUFF: 0 DC: 9 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  81 PC:   5 ADDR:   6 MEM_OUT: 44 ACC: 111 BUFF: 0 DC: 8 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK:  84 PC:   6 ADDR:   6 MEM_OUT: 44 ACC: 111 BUFF: 0 DC: 8 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK:  87 PC:   7 ADDR:   6 MEM_OUT: 44 ACC: 111 BUFF: 0 DC: 8 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK:  90 PC:   8 ADDR:   6 MEM_OUT: 44 ACC: 111 BUFF: 0 DC: 8 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK:  93 PC:   4 ADDR:   6 MEM_OUT: 44 ACC: 111 BUFF: 0 DC: 8 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK:  97 PC:   5 ADDR:   7 MEM_OUT: 32 ACC: 44 BUFF: 0 DC: 7 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 100 PC:   6 ADDR:   7 MEM_OUT: 32 ACC: 44 BUFF: 0 DC: 7 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 103 PC:   7 ADDR:   7 MEM_OUT: 32 ACC: 44 BUFF: 0 DC: 7 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 106 PC:   8 ADDR:   7 MEM_OUT: 32 ACC: 44 BUFF: 0 DC: 7 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 109 PC:   4 ADDR:   7 MEM_OUT: 32 ACC: 44 BUFF: 0 DC: 7 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 113 PC:   5 ADDR:   8 MEM_OUT: 119 ACC: 32 BUFF: 0 DC: 6 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 116 PC:   6 ADDR:   8 MEM_OUT: 119 ACC: 32 BUFF: 0 DC: 6 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 119 PC:   7 ADDR:   8 MEM_OUT: 119 ACC: 32 BUFF: 0 DC: 6 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 122 PC:   8 ADDR:   8 MEM_OUT: 119 ACC: 32 BUFF: 0 DC: 6 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 125 PC:   4 ADDR:   8 MEM_OUT: 119 ACC: 32 BUFF: 0 DC: 6 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 129 PC:   5 ADDR:   9 MEM_OUT: 111 ACC: 119 BUFF: 0 DC: 5 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 132 PC:   6 ADDR:   9 MEM_OUT: 111 ACC: 119 BUFF: 0 DC: 5 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 135 PC:   7 ADDR:   9 MEM_OUT: 111 ACC: 119 BUFF: 0 DC: 5 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 138 PC:   8 ADDR:   9 MEM_OUT: 111 ACC: 119 BUFF: 0 DC: 5 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 141 PC:   4 ADDR:   9 MEM_OUT: 111 ACC: 119 BUFF: 0 DC: 5 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 145 PC:   5 ADDR:  10 MEM_OUT: 114 ACC: 111 BUFF: 0 DC: 4 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 148 PC:   6 ADDR:  10 MEM_OUT: 114 ACC: 111 BUFF: 0 DC: 4 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 151 PC:   7 ADDR:  10 MEM_OUT: 114 ACC: 111 BUFF: 0 DC: 4 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 154 PC:   8 ADDR:  10 MEM_OUT: 114 ACC: 111 BUFF: 0 DC: 4 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 157 PC:   4 ADDR:  10 MEM_OUT: 114 ACC: 111 BUFF: 0 DC: 4 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 161 PC:   5 ADDR:  11 MEM_OUT: 108 ACC: 114 BUFF: 0 DC: 3 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 164 PC:   6 ADDR:  11 MEM_OUT: 108 ACC: 114 BUFF: 0 DC: 3 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 167 PC:   7 ADDR:  11 MEM_OUT: 108 ACC: 114 BUFF: 0 DC: 3 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 170 PC:   8 ADDR:  11 MEM_OUT: 108 ACC: 114 BUFF: 0 DC: 3 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 173 PC:   4 ADDR:  11 MEM_OUT: 108 ACC: 114 BUFF: 0 DC: 3 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 177 PC:   5 ADDR:  12 MEM_OUT: 100 ACC: 108 BUFF: 0 DC: 2 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 180 PC:   6 ADDR:  12 MEM_OUT: 100 ACC: 108 BUFF: 0 DC: 2 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 183 PC:   7 ADDR:  12 MEM_OUT: 100 ACC: 108 BUFF: 0 DC: 2 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 186 PC:   8 ADDR:  12 MEM_OUT: 100 ACC: 108 BUFF: 0 DC: 2 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 189 PC:   4 ADDR:  12 MEM_OUT: 100 ACC: 108 BUFF: 0 DC: 2 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 193 PC:   5 ADDR:  13 MEM_OUT: 33 ACC: 100 BUFF: 0 DC: 1 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 196 PC:   6 ADDR:  13 MEM_OUT: 33 ACC: 100 BUFF: 0 DC: 1 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 199 PC:   7 ADDR:  13 MEM_OUT: 33 ACC: 100 BUFF: 0 DC: 1 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JMP 4
+TICK: 202 PC:   8 ADDR:  13 MEM_OUT: 33 ACC: 100 BUFF: 0 DC: 1 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    READ 
+TICK: 205 PC:   4 ADDR:  13 MEM_OUT: 33 ACC: 100 BUFF: 0 DC: 1 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    OUTPUT 1
+TICK: 209 PC:   5 ADDR:  14 MEM_OUT: Out of range ACC: 33 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    CNTZ 
+TICK: 212 PC:   6 ADDR:  14 MEM_OUT: Out of range ACC: 33 BUFF: 0 DC: 0 FLAG_ZERO: False FLAG_LT: 0 FLAG_GT: 1
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    JZ 9
+TICK: 215 PC:   7 ADDR:  14 MEM_OUT: Out of range ACC: 33 BUFF: 0 DC: 0 FLAG_ZERO: True FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+DEBUG   machine:simulation    HLT 
+TICK: 218 PC:   9 ADDR:  14 MEM_OUT: Out of range ACC: 33 BUFF: 0 DC: 0 FLAG_ZERO: True FLAG_LT: 0 FLAG_GT: 0
+INPUT_PORT:  []
+OUT_PORT:  ['H', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd', '!']
+DATA_MEM:  [13, 72, 101, 108, 108, 111, 44, 32, 119, 111, 114, 108, 100, 33]
+---------------------------------------
+INFO    machine:simulation    output_buffer: 'Hello, world!'
